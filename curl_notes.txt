@@ -1,0 +1,15 @@
+cURL notes from practice
+
+* Using cURL with a URL will get you the HTML of the page
+* GET method is implied when no other method is specified (means to read)
+* Four HTTP methods
+	- POST
+	- GET
+	- PUT
+	- DELETE
+* -I limits the response to just the header
+	- -i shows the header along with all the HTML of website
+* -X signifies the method used for the request
+	- typically curl -X GET http...
+		> can also be represented as curl --get http...
+
